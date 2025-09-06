@@ -66,8 +66,6 @@ const Header = () => {
           <Button variant="link" className="text-muted-foreground">Banners & Displays</Button>
           <Button variant="link" className="text-muted-foreground">Decals & Magnets</Button>
           <Button variant="link" className="text-muted-foreground">Trade Shows & Events</Button>
-          <Button variant="link" className="text-muted-foreground">Office Signs</Button>
-          <Button variant="link" className="text-muted-foreground">Outdoor Signs</Button>
         </nav>
       </div>
     </header>

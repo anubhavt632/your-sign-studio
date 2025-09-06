@@ -14,7 +14,7 @@ const Hero = () => {
                 <span className="bg-gradient-brand bg-clip-text text-transparent">
                   Custom Sign
                 </span>{" "}
-                Online
+                With Divya Pitambara Foundation
               </h1>
               <p className="text-xl text-muted-foreground max-w-lg">
                 Professional custom signage solutions for businesses, events, and personal use. 

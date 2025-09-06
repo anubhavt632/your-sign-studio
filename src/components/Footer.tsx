@@ -8,11 +8,13 @@ const Footer = () => {
         <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
           {/* Company info */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-gradient-brand rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">S</span>
-              </div>
-              <span className="text-lg font-bold text-foreground">SquareSigns</span>
+            <div className="flex items-center gap-3">
+              <img 
+                src="/lovable-uploads/f002b474-76a9-480e-8f68-696539a9b057.png" 
+                alt="Divya Pitambara Foundation" 
+                className="w-10 h-10 object-contain"
+              />
+              <span className="text-lg font-bold text-foreground">Divya Pitambara Foundation</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Professional custom signage solutions for businesses, events, and personal use. 
@@ -80,7 +82,7 @@ const Footer = () => {
         <div className="border-t border-border mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © 2024 SquareSigns. All rights reserved.
+              © 2024 Divya Pitambara Foundation. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <Button variant="link" className="p-0 h-auto text-sm text-muted-foreground hover:text-primary">

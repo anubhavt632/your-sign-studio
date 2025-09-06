@@ -24,11 +24,13 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-gradient-brand rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">S</span>
-            </div>
-            <span className="text-xl font-bold text-foreground">SquareSigns</span>
+          <div className="flex items-center gap-3">
+            <img 
+              src="/lovable-uploads/f002b474-76a9-480e-8f68-696539a9b057.png" 
+              alt="Divya Pitambara Foundation" 
+              className="w-12 h-12 object-contain"
+            />
+            <span className="text-xl font-bold text-foreground">Divya Pitambara Foundation</span>
           </div>
 
           {/* Search bar */}

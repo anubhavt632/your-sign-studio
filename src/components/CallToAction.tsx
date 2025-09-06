@@ -10,7 +10,7 @@ const CallToAction = () => {
             Ready to Create Your Custom Sign?
           </h2>
           <p className="text-lg text-primary-foreground/90 mb-8 leading-relaxed">
-            Join thousands of satisfied customers who trust SquareSigns for their signage needs. 
+            Join thousands of satisfied customers who trust Divya Pitambara Foundation for their signage needs. 
             Get 10% off your first order when you sign up today!
           </p>
           

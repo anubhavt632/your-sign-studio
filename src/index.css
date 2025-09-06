@@ -8,45 +8,45 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Brand Colors - SquareSigns inspired */
+    /* Brand Colors - Yellow/Orange Theme */
     --background: 0 0% 99%;
-    --foreground: 240 10% 15%;
+    --foreground: 24 10% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 240 10% 15%;
+    --card-foreground: 24 10% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 15%;
+    --popover-foreground: 24 10% 15%;
 
-    /* Purple brand color */
-    --primary: 262 68% 64%;
-    --primary-foreground: 0 0% 100%;
+    /* Bright yellow primary */
+    --primary: 53 100% 50%;
+    --primary-foreground: 24 100% 10%;
     
-    /* Teal accent */
-    --secondary: 160 84% 39%;
+    /* Orange accent */
+    --secondary: 36 100% 50%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 9% 46%;
+    --muted: 43 14% 96%;
+    --muted-foreground: 43 9% 46%;
 
-    --accent: 160 84% 39%;
+    --accent: 36 100% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 262 68% 64%;
+    --border: 43 13% 91%;
+    --input: 43 13% 91%;
+    --ring: 53 100% 50%;
 
-    /* Custom brand gradients */
-    --gradient-brand: linear-gradient(135deg, hsl(262 68% 64%), hsl(160 84% 39%));
-    --gradient-hero: linear-gradient(135deg, hsl(262 68% 64% / 0.1), hsl(160 84% 39% / 0.1));
-    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(220 14% 98%));
+    /* Custom brand gradients - Yellow to Orange */
+    --gradient-brand: linear-gradient(135deg, hsl(53 100% 50%), hsl(36 100% 50%));
+    --gradient-hero: linear-gradient(135deg, hsl(53 100% 50% / 0.1), hsl(36 100% 50% / 0.1));
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(43 14% 98%));
     
     /* Shadows */
-    --shadow-brand: 0 10px 30px -5px hsl(262 68% 64% / 0.3);
-    --shadow-soft: 0 4px 20px -2px hsl(220 13% 91% / 0.5);
+    --shadow-brand: 0 10px 30px -5px hsl(53 100% 50% / 0.3);
+    --shadow-soft: 0 4px 20px -2px hsl(43 13% 91% / 0.5);
     
     --radius: 0.75rem;
 
@@ -68,33 +68,33 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 240 10% 8%;
+    --background: 24 10% 8%;
     --foreground: 0 0% 95%;
 
-    --card: 240 10% 10%;
+    --card: 24 10% 10%;
     --card-foreground: 0 0% 95%;
 
-    --popover: 240 10% 10%;
+    --popover: 24 10% 10%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 262 68% 64%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 53 100% 50%;
+    --primary-foreground: 24 100% 10%;
 
-    --secondary: 160 84% 39%;
+    --secondary: 36 100% 50%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 240 10% 15%;
-    --muted-foreground: 240 5% 64%;
+    --muted: 24 10% 15%;
+    --muted-foreground: 24 5% 64%;
 
-    --accent: 160 84% 39%;
+    --accent: 36 100% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 75% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 240 10% 18%;
-    --input: 240 10% 18%;
-    --ring: 262 68% 64%;
+    --border: 24 10% 18%;
+    --input: 24 10% 18%;
+    --ring: 53 100% 50%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

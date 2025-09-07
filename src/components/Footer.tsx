@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <img 
-                src="/lovable-uploads/f002b474-76a9-480e-8f68-696539a9b057.png" 
+                src="/logo-main/logo.png" 
                 alt="Divya Pitambara Foundation" 
                 className="w-10 h-10 object-contain"
               />
@@ -82,7 +82,7 @@ const Footer = () => {
         <div className="border-t border-border mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © 2024 Divya Pitambara Foundation. All rights reserved.
+              © 2025 Divya Pitambara Foundation. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <Button variant="link" className="p-0 h-auto text-sm text-muted-foreground hover:text-primary">

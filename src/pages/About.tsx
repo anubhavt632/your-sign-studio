@@ -12,7 +12,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-brand text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">About Divya Pitambara Foundation</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">About Maa Baglamukhi Sadhna Sansthan</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto opacity-90">
             Dedicated to spiritual growth, community service, and spreading the divine blessings of Maa Pitambara
           </p>

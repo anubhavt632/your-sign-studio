@@ -3,9 +3,11 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Search, X, ShoppingCart, User } from "lucide-react";
+import { useLocation } from "react-router-dom";
 
 const Header = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const location = useLocation();
 
   const navigationItems = [
     { label: "Home", href: "/" },
@@ -89,7 +91,11 @@ const Header = () => {
                       <a
                         key={item.label}
                         href={item.href}
-                        className="text-muted-foreground font-medium hover:text-accent transition-colors py-2 block"
+                        className={`font-medium transition-colors py-2 block ${
+                          location.pathname === item.href 
+                            ? 'text-primary font-semibold' 
+                            : 'text-muted-foreground hover:text-accent'
+                        }`}
                       >
                         {item.label}
                       </a>
@@ -142,7 +148,11 @@ const Header = () => {
               <a
                 key={item.label}
                 href={item.href}
-                className="text-muted-foreground font-medium hover:text-accent transition-colors"
+                className={`font-medium transition-colors relative ${
+                  location.pathname === item.href 
+                    ? 'text-primary font-semibold after:absolute after:bottom-[-8px] after:left-0 after:right-0 after:h-0.5 after:bg-primary after:rounded-full' 
+                    : 'text-muted-foreground hover:text-accent'
+                }`}
               >
                 {item.label}
               </a>

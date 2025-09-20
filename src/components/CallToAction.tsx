@@ -10,7 +10,7 @@ const CallToAction = () => {
         Join Hands in Seva & Devotion
       </h2>
       <p className="text-lg text-primary-foreground/90 mb-8 leading-relaxed">
-        Be a part of <span className="font-semibold">Divya Pitambara Foundation</span> 
+        Be a part of <span className="font-semibold">Maa Baglamukhi Sadhna Sansthan</span> 
         — serving cows, feeding the needy, and spreading devotion. 
         Support our cause or explore sacred Pooja items to bring blessings home.
       </p>

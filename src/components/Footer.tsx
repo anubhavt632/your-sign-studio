@@ -11,15 +11,23 @@ const Footer = () => {
             <div className="flex items-center gap-3">
               <img 
                 src="/logo-main/logo.png" 
-                alt="Divya Pitambara Foundation" 
+                alt="Maa Baglamukhi Sadhna Sansthan" 
                 className="w-10 h-10 object-contain"
               />
-              <span className="text-lg font-bold text-foreground">Divya Pitambara Foundation</span>
+              <span className="text-lg font-bold text-foreground">Maa Baglamukhi Sadhna Sansthan</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Professional custom signage solutions for businesses, events, and personal use. 
-              Quality you can trust, service you can count on.
+              Dedicated to spiritual growth, divine blessings, and community service. 
+              Spreading the sacred teachings of Maa Baglamukhi through devotion and seva.
             </p>
+            <div className="mt-4">
+              <p className="text-sm text-muted-foreground">
+                <span className="font-medium">Address:</span><br />
+                Maa Baglamukhi Yoga and Sadhana Center<br />
+                MIJ 71, Juhi Enclave, Siktour Chauraha<br />
+                Khorabar, Gorakhpur, Uttar Pradesh, 273010
+              </p>
+            </div>
             <div className="flex items-center gap-3">
               <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
                 <Facebook className="w-4 h-4" />
@@ -36,11 +44,11 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Products */}
+          {/* Spiritual Services */}
           <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">Products</h3>
+            <h3 className="font-semibold text-foreground">Spiritual Services</h3>
             <ul className="space-y-2">
-              {["Rigid Signs", "Banners & Displays", "Decals & Magnets", "Trade Show Displays", "Office Signs", "Outdoor Signs"].map((item) => (
+              {["Pooja Items", "Spiritual Guidance", "Yoga Classes", "Meditation Sessions", "Religious Ceremonies", "Divine Blessings"].map((item) => (
                 <li key={item}>
                   <Button variant="link" className="p-0 h-auto text-sm text-muted-foreground hover:text-primary">
                     {item}
@@ -50,11 +58,11 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Services */}
+          {/* Community */}
           <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">Services</h3>
+            <h3 className="font-semibold text-foreground">Community</h3>
             <ul className="space-y-2">
-              {["Custom Design", "Templates", "Rush Orders", "Bulk Pricing", "Design Services", "Installation"].map((item) => (
+              {["Donations", "Volunteer Programs", "Events", "Gallery", "Spiritual Teachings", "Community Seva"].map((item) => (
                 <li key={item}>
                   <Button variant="link" className="p-0 h-auto text-sm text-muted-foreground hover:text-primary">
                     {item}
@@ -64,11 +72,11 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Support */}
+          {/* Quick Links */}
           <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">Support</h3>
+            <h3 className="font-semibold text-foreground">Quick Links</h3>
             <ul className="space-y-2">
-              {["Contact Us", "FAQ", "Shipping Info", "Returns", "Track Order", "Help Center"].map((item) => (
+              {["About Us", "Contact Us", "Privacy Policy", "Terms of Service", "Sitemap", "Help Center"].map((item) => (
                 <li key={item}>
                   <Button variant="link" className="p-0 h-auto text-sm text-muted-foreground hover:text-primary">
                     {item}
@@ -82,7 +90,7 @@ const Footer = () => {
         <div className="border-t border-border mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © 2025 Divya Pitambara Foundation. All rights reserved.
+              © 2025 Maa Baglamukhi Sadhna Sansthan. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <Button variant="link" className="p-0 h-auto text-sm text-muted-foreground hover:text-primary">

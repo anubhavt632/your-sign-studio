@@ -45,9 +45,10 @@ const Contact = () => {
                     <div>
                       <h3 className="text-xl font-semibold mb-2">Our Address</h3>
                       <p className="text-muted-foreground">
-                        Divya Pitambara Foundation<br />
-                        Baglamukhi Temple Complex<br />
-                        Datia, Madhya Pradesh - 475661<br />
+                        Maa Baglamukhi Sadhna Sansthan<br />
+                        Maa Baglamukhi Yoga and Sadhana Center<br />
+                        MIJ 71, Juhi Enclave, Siktour Chauraha<br />
+                        Khorabar, Gorakhpur, Uttar Pradesh, 273010<br />
                         India
                       </p>
                     </div>

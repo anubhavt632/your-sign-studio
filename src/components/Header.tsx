@@ -8,13 +8,13 @@ const Header = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   const navigationItems = [
-    { label: "Home", href: "#" },
-    { label: "About", href: "#" },
-    { label: "Donations", href: "#" },
-    { label: "Pooja Items", href: "#" },
-    { label: "Events", href: "#" },
-    { label: "Gallery", href: "#" },
-    { label: "Contact", href: "#" },
+    { label: "Home", href: "/" },
+    { label: "About", href: "/about" },
+    { label: "Donations", href: "/donation" },
+    { label: "Pooja Items", href: "/pooja-items" },
+    { label: "Events", href: "/events" },
+    { label: "Gallery", href: "/gallery" },
+    { label: "Contact", href: "/contact" },
   ];
 
   return (

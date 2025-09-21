@@ -12,6 +12,7 @@ const Header = () => {
   const navigationItems = [
     { label: "Home", href: "/" },
     { label: "About", href: "/about" },
+    { label: "Services", href: "/services" },
     { label: "Donations", href: "/donation" },
     { label: "Pooja Items", href: "/pooja-items" },
     { label: "Events", href: "/events" },

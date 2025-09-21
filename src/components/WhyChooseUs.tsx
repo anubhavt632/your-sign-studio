@@ -1,61 +1,61 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Shield, Heart, Clock, Award, Users, Sparkles } from "lucide-react";
+import { Flower2, Sun, Moon, Star, Flame, Trees } from "lucide-react";
 
 const WhyChooseUs = () => {
-  const features = [
+  const practices = [
     {
-      icon: Shield,
-      title: "Authentic Traditions",
-      description: "Following ancient Vedic traditions with complete authenticity and spiritual purity in all our practices."
+      icon: Flower2,
+      title: "Spiritual Awakening",
+      description: "Awaken your inner consciousness through ancient mantras and sacred rituals that connect you with divine energy."
     },
     {
-      icon: Heart,
-      title: "Devoted Service",
-      description: "Our team of experienced spiritual guides provide personalized attention with genuine care and devotion."
+      icon: Sun,
+      title: "Inner Peace",
+      description: "Find tranquility and mental clarity through meditation practices and spiritual guidance from experienced gurus."
     },
     {
-      icon: Clock,
-      title: "Timely Guidance",
-      description: "Available for consultations and services at your convenience, including emergency spiritual support."
+      icon: Moon,
+      title: "Emotional Balance",
+      description: "Achieve harmony in relationships and emotional stability through Vedic wisdom and divine blessings."
     },
     {
-      icon: Award,
-      title: "Proven Results",
-      description: "Years of experience helping devotees achieve spiritual growth, peace, and positive life transformations."
+      icon: Star,
+      title: "Life Guidance",
+      description: "Receive cosmic insights and astrological guidance to navigate life's challenges with confidence and wisdom."
     },
     {
-      icon: Users,
-      title: "Community Support",
-      description: "Join our spiritual community of devotees who support each other's journey towards enlightenment."
+      icon: Flame,
+      title: "Purification",
+      description: "Cleanse negative energies and past karma through sacred fire ceremonies and powerful spiritual practices."
     },
     {
-      icon: Sparkles,
-      title: "Divine Blessings",
-      description: "Experience the powerful blessings of Maa Baglamukhi through our dedicated spiritual practices."
+      icon: Trees,
+      title: "Prosperity & Growth",
+      description: "Attract abundance and success in all life aspects through authentic rituals and divine intervention."
     }
   ];
 
   return (
-    <section className="py-16">
+    <section className="py-16 bg-gradient-hero">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Maa Baglamukhi Sadhna Sansthan</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Sacred Practices & Divine Benefits</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Experience authentic spiritual guidance rooted in ancient wisdom and modern understanding
+            Discover the transformative power of ancient Vedic practices and experience divine blessings in every aspect of your life
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {features.map((feature, index) => (
-            <Card key={index} className="text-center hover:shadow-lg transition-shadow duration-300">
+          {practices.map((practice, index) => (
+            <Card key={index} className="text-center hover:shadow-brand transition-all duration-300 bg-card/80 backdrop-blur-sm border-primary/20">
               <CardHeader>
-                <div className="mx-auto w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                  <feature.icon className="w-8 h-8 text-primary" />
+                <div className="mx-auto w-16 h-16 bg-gradient-brand rounded-full flex items-center justify-center mb-4 shadow-brand">
+                  <practice.icon className="w-8 h-8 text-primary-foreground" />
                 </div>
-                <CardTitle className="text-xl">{feature.title}</CardTitle>
+                <CardTitle className="text-xl text-foreground">{practice.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">{feature.description}</p>
+                <p className="text-muted-foreground leading-relaxed">{practice.description}</p>
               </CardContent>
             </Card>
           ))}

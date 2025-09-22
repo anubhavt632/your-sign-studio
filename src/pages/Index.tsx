@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ProductCategories from "@/components/ProductCategories";
-import Features from "@/components/Features";
+import YouTubeSection from "@/components/YouTubeSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Stats from "@/components/Stats";
 import GalleryEventsSection from "@/components/GalleryEventsSection";
@@ -15,7 +15,7 @@ const Index = () => {
       <Header />
       <Hero />
       <ProductCategories />
-      <Features />
+      <YouTubeSection />
       <WhyChooseUs />
       <Stats />
       <GalleryEventsSection />

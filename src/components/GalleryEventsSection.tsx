@@ -1,12 +1,14 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Calendar, Eye, Heart, Users } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import heroSignageImage from "@/assets/hero-signage.png";
 import bannersDisplaysImage from "@/assets/banners-displays.jpg";
 import rigidSignsImage from "@/assets/rigid-signs.jpg";
 import decalsMagnetsImage from "@/assets/decals-magnets.jpg";
 
 const GalleryEventsSection = () => {
+  const navigate = useNavigate();
   const galleryItems = [
     {
       id: 1,
@@ -119,11 +121,19 @@ const GalleryEventsSection = () => {
               Participate in our events, explore our gallery, and connect with fellow devotees.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="shadow-brand">
+              <Button 
+                size="lg" 
+                className="shadow-brand"
+                onClick={() => navigate('/events')}
+              >
                 <Users className="w-4 h-4 mr-2" />
                 View All Events
               </Button>
-              <Button variant="outline" size="lg">
+              <Button 
+                variant="outline" 
+                size="lg"
+                onClick={() => navigate('/gallery')}
+              >
                 <Eye className="w-4 h-4 mr-2" />
                 Explore Gallery
               </Button>

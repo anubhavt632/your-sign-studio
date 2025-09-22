@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 import Carousel from "./Carousel";
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="relative bg-gradient-hero py-12 px-4 overflow-hidden">
       <div className="container mx-auto">
@@ -24,10 +27,19 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button size="lg" className="shadow-brand w-full sm:w-auto">
+              <Button 
+                size="lg" 
+                className="shadow-brand w-full sm:w-auto"
+                onClick={() => navigate('/donation')}
+              >
                 Donate Now
               </Button>
-              <Button variant="outline" size="lg" className="w-full sm:w-auto">
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="w-full sm:w-auto"
+                onClick={() => navigate('/pooja-items')}
+              >
                 Explore Pooja Items
               </Button>
             </div>

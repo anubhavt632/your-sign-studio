@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { useNavigate } from "react-router-dom";
 
 const CallToAction = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="py-20 px-4 bg-gradient-brand">
   <div className="container mx-auto text-center">
@@ -26,10 +29,19 @@ const CallToAction = () => {
       </div>
       
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
-        <Button size="lg" variant="outline" className="bg-white/10 border-white/20 text-primary-foreground hover:bg-white/20">
+        <Button 
+          size="lg" 
+          variant="outline" 
+          className="bg-white/10 border-white/20 text-primary-foreground hover:bg-white/20"
+          onClick={() => navigate('/donation')}
+        >
           Donate for Gau Seva
         </Button>
-        <Button size="lg" variant="secondary">
+        <Button 
+          size="lg" 
+          variant="secondary"
+          onClick={() => navigate('/pooja-items')}
+        >
           Explore Pooja Items
         </Button>
       </div>

@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Autoplay } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/effect-coverflow";
 
 type CarouselItem = {
   id: number;
@@ -21,11 +20,11 @@ const Carousel = () => {
   return (
     <div className="w-full max-w-5xl mx-auto py-12">
       <Swiper
-        modules={[EffectCoverflow, Autoplay]}
-        effect="coverflow"
+        modules={[Autoplay]}
         grabCursor={true}
         centeredSlides={true}
         loop={true}
+        spaceBetween={20}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
@@ -35,14 +34,7 @@ const Carousel = () => {
           640: { slidesPerView: 2 },    // ✅ Tablet
           1024: { slidesPerView: 3 },   // ✅ Desktop
         }}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 200,
-          modifier: 2.5,
-          slideShadows: false,
-        }}
-        className="!overflow-visible"
+        className="!overflow-hidden"
       >
         {items.map((item) => (
           <SwiperSlide key={item.id} className="!w-64 !h-80">
